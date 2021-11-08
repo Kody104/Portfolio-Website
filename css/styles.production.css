@@ -2,7 +2,7 @@
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.3.6,
 * Autoprefixer: v10.3.1
-* Browsers: last 4 version
+* Browsers: last 2 versions
 */
 
 /*
@@ -45,13 +45,12 @@ h3 {
 a {
   color: #6c6aba;
   -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
 
 a:visited {
   /* visited link */
-  color: #cbc4ff;
+  color: #7977d0;
 }
 
 a:hover, a:focus {
@@ -82,7 +81,6 @@ button {
   /* Width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
 
@@ -102,7 +100,6 @@ button {
   /* Width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
 
@@ -130,6 +127,15 @@ button:hover, button:focus,
 
 .navigation-list__item--active {
   text-decoration: none;
+}
+
+.navigation-list__item {
+  -webkit-transition: color 0.25s ease-in-out 0.125s;
+  transition: color 0.25s ease-in-out 0.125s;
+}
+
+.navigation-list__item:hover {
+  color: #e3e64f;
 }
 
 .profile {
