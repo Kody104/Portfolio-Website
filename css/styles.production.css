@@ -203,7 +203,6 @@ button:hover, button:focus,
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2 / 3;
-    grid-row-end: 2;
   }
 }
 

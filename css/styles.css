@@ -175,7 +175,6 @@ button:hover, button:focus,
   .achievements__item:last-child {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    grid-row-end: 2;
   }
 }
 
