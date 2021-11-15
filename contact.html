@@ -30,25 +30,27 @@
       </ul>
     </nav>
   </header>
-  <h1>Contact</h1>
-  <form method="post" id="contact-form">
-    <label class="standard-label" for="contact-email">E-Mail:</label>
-    <input type="email" id="contact-email" required>
-
-    <label class="standard-label" for="contact-tel">Telephone:</label>
-    <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-
-    <label class="standard-label" for="contact-message">Message:</label>
-    <textarea maxlength="240" id="contact-message" required></textarea>
-
-    <input type="submit" value="Send message">
-  </form>
-  <br>
-  <div>
-    Email: <a href="mailto:jpk.stu@gmail.com">jpk(dot)stu(at)gmail(dot)com</a><br>
-    Tel: <a href="tel:1555555555"> +1 555 555 5555</a><br>
+  <div class="profile">
+    <h1>Contact Me!</h1>
+    <form class="profile__primary_backdrop" method="post">
+      <label class="standard-label" for="contact-email">E-Mail:</label>
+      <input type="email" id="contact-email" required>
+      <br><br>
+      <label class="standard-label" for="contact-tel">Telephone:</label>
+      <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+      <br><br>
+      <label class="standard-label" for="contact-message">Message:</label>
+      <textarea maxlength="240" id="contact-message" required></textarea>
+      <br><br>
+      <input class="button" type="submit" value="Send message">
+    </form>
     <br>
-    <a href="mailto:jpk.stu@gmail.com">Send me a message!</a><br>
+    <div class="profile__secondary_backdrop">
+      Email: <a href="mailto:jpk.stu@gmail.com">jpk(dot)stu(at)gmail(dot)com</a><br>
+      Tel: <a href="tel:1555555555"> +1 555 555 5555</a><br>
+      <br>
+      <a class="button button_secondary" href="mailto:jpk.stu@gmail.com">Email Me</a><br>
+    </div>
   </div>
   <footer class="page-footer">
     <p>Find me on</p>
