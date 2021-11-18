@@ -43,14 +43,14 @@ h3 {
 }
 
 a {
-  color: #6c6aba;
+  color: #5d5ca1;
   -webkit-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
 
 a:visited {
   /* visited link */
-  color: #7977d0;
+  color: #6c6aba;
 }
 
 a:hover, a:focus {
@@ -73,7 +73,7 @@ button {
   /* Takes from the outer container */
   font-family: inherit;
   /* Styles the button */
-  background-color: #6c6aba;
+  background-color: #5d5ca1;
   color: white !important;
   text-decoration: none;
   padding: 10px;
@@ -92,7 +92,7 @@ button {
   /* Takes from the outer container */
   font-family: inherit;
   /* Styles the button */
-  background-color: #6c6aba;
+  background-color: #5d5ca1;
   color: white !important;
   text-decoration: none;
   padding: 10px;
@@ -271,7 +271,7 @@ button:hover, button:focus,
     fill: #000000;
   }
   to {
-    fill: #6c6aba;
+    fill: #5d5ca1;
   }
 }
 
@@ -280,7 +280,7 @@ button:hover, button:focus,
     fill: #000000;
   }
   to {
-    fill: #6c6aba;
+    fill: #5d5ca1;
   }
 }
 
