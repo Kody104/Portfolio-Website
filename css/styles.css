@@ -155,6 +155,10 @@ button:hover, button:focus,
  display: inline-block;
  width: 33%;
 }
+
+.achievements__item a {
+  color: #494980;
+}
 /* end achievements fallback */
 
 @supports (display: grid) {
